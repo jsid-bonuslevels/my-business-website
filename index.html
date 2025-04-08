@@ -93,9 +93,20 @@
   <!-- HERO SECTION / CAROUSEL -->
   <header class="hero">
     <div class="carousel">
-      <img src="images/hero1.gif" class="carousel-image active" />
-      <img src="images/hero2.gif" class="carousel-image" />
-      <img src="images/hero3.gif" class="carousel-image" />
+      <img src="images/Hero1.gif" class="carousel-image active" alt="Hero 1">
+      <img src="images/Hero2.gif" class="carousel-image" alt="Hero 2">
+      <img src="images/Hero3.gif" class="carousel-image" alt="Hero 3">
+
+      <!-- Arrows -->
+      <div class="arrow left" onclick="prevSlide()">❮</div>
+      <div class="arrow right" onclick="nextSlide()">❯</div>
+
+      <!-- Dot Indicators -->
+      <div class="dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
     </div>
 
     <div class="hero-text">
